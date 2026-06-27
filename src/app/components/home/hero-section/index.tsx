@@ -33,7 +33,7 @@ const HeroSection = () => {
               {/* Profile Image container */}
               <div className="relative h-[270px] w-[270px] sm:h-[340px] sm:w-[340px] lg:h-[420px] lg:w-[420px] overflow-hidden shadow-2xl rounded-full border-4 border-white dark:border-gray-900 bg-muted/20">
                 <Image
-                  src={"/images/home/banner/Taimoor.jpg"}
+                  src={"/images/home/banner/ShahTaimoor.png"}
                   alt="Shah Taimoor"
                   fill
                   className="object-cover"
