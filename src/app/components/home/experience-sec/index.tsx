@@ -4,29 +4,30 @@ const ExperienceSec = () => {
   const experiences = [
     {
       year: "2026 - PRESENT",
-      title: "POS Double Accounting (PERN)",
+      title: "POS Double Entry System (PERN Stack)",
       company: "",
       type: "Full-Stack Development",
       description:
-        "Developed a full-stack POS system using PostgreSQL, Express.js, React.js, and Node.js, featuring double-entry accounting, customizable Chart of Accounts, inventory and warehouse management, sales/purchase modules, dropshipping workflow, and investor management, with scalable architecture deployed for clients in Pakistan and China.",
+        "Developed an enterprise-grade PERN Stack POS system with double entry accounting and a customizable Chart of Accounts. Built inventory, warehouse management, sales, purchases, and dropshipping modules with role-based access control (RBAC). Designed secure RESTful APIs and optimized PostgreSQL database operations for scalable business workflows.",
     },
     {
-      year: "2025 - 2026",
-      title: "Gul Traders Website (MERN)",
+      year: "2025",
+      title: "Wiser Consulting",
+      company: "Wiser Consulting",
+      type: "Full-Stack Development",
+      description:
+        "Developed a full-stack immigration and consulting platform using Next.js, Node.js, Express.js, and MongoDB. Integrated AI-powered PDF processing, secure JWT authentication, and responsive user interfaces. Designed RESTful APIs and implemented Redux Toolkit for efficient state management.",
+    },
+    {
+      year: "2024",
+      title: "Gul Traders E-Commerce",
       company: "Gul Traders",
       type: "E-commerce Development",
       description:
-        "Developed a full-stack MERN e-commerce website with responsive UI/UX, featuring both admin and user panels, optimized for business operations and seamless user experience.",
+        "Developed a full-stack MERN e-commerce platform featuring separate admin and customer dashboards. Implemented product management, shopping cart, order processing, and secure authentication. Application performance, and responsive UI using React.js and Tailwind CSS.",
     },
 
-    {
-      year: "2021 – 2024",
-      title: "Zaryab Traders",
-      company: "Zaryab Traders",
-      type: "Trainee",
-      description:
-        "Worked as a trainee and gaining hands-on experience in accounting and financial operations. Learned full-stack development using MERN designed UI/UX using Figma, managed projects on GitHub, and developed skills in digital marketing.",
-    },
+
   ];
 
   return (
