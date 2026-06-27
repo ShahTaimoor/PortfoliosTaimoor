@@ -17,18 +17,19 @@ const AboutMe = () => {
             <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
               <div className="w-full flex-1">
                 <p>
-                  Full-Stack Developer with strong expertise in MERN and PERN
-                  stack development, delivering real-world scalable applications
-                  including POS and accounting systems. Experienced in working
-                  with international clients and deploying production-ready
-                  solutions.
+                  Full-Stack Software Engineer with 3+ years of experience designing
+                  and developing scalable web applications using MERN and PERN
+                  stacks. Experienced in React.js, Next.js, Node.js, Express.js, PostgreSQL,
+                  MongoDB, TypeScript, REST APIs, Redux Toolkit, and cloud
+                  deployment. Passionate about building secure, high-performance
+                  SaaS, e-commerce, POS, and business management solutions.
                 </p>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-gray-300">
                   {[
-                    { count: "05", label: "Years of experience" },
+                    { count: "3+", label: "Years of experience" },
                     { count: "4+", label: "Happy Clients" },
-                    { count: "5", label: "Project Completed" },
+                    { count: "3", label: "Project Completed" },
                   ].map((item, i) => (
                     <div key={i}>
                       <h3>{item.count}</h3>

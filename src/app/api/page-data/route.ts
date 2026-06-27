@@ -48,35 +48,47 @@ const educationData = {
   ],
   skills: [
     {
-      name: "MERN & PERN Stack",
+      category: "Frontend",
       icon: "/images/icon/web-icon.svg",
-      rating: 5,
+      items: [
+        "React.js, Next.js & Redux Toolkit",
+        "TypeScript, JavaScript (ES6+)",
+        "Tailwind CSS, HTML5, CSS3",
+        "Responsive Design & Framer Motion",
+      ],
     },
     {
-      name: "React.js, Next.js & Redux Toolkit",
+      category: "Backend",
       icon: "/images/icon/web-icon.svg",
-      rating: 5,
+      items: [
+        "Node.js, Express.js & RESTful APIs",
+        "JWT Auth, RBAC & Socket.io",
+        "API Integration & Payment Gateway",
+      ],
     },
     {
-      name: "Node.js & Express.js",
+      category: "Database",
       icon: "/images/icon/web-icon.svg",
-      rating: 5,
+      items: [
+        "MongoDB, PostgreSQL & MySQL",
+        "Redis",
+      ],
     },
     {
-      name: "MongoDB, PostgreSQL, and MySQL",
+      category: "DevOps & Tools",
       icon: "/images/icon/web-icon.svg",
-      rating: 5,
+      items: [
+        "Git, GitHub & Docker",
+        "CI/CD, Vercel, Render & Nginx",
+        "Linux Server Management",
+      ],
     },
-    {
-      name: "REST APIs & JWT Auth",
-      icon: "/images/icon/web-icon.svg",
-      rating: 5,
-    },
-    {
-      name: "Deployment & Linux Servers",
-      icon: "/images/icon/web-icon.svg",
-      rating: 5,
-    },
+  ],
+  achievements: [
+    "Developed 3 production-grade applications",
+    "Built enterprise POS with accounting module",
+    "Delivered software for international clients",
+    "Reduced operational effort through workflow automation",
   ],
 };
 
