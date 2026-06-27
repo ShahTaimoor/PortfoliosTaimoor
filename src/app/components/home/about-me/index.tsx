@@ -15,17 +15,7 @@ const AboutMe = () => {
             </div>
 
             <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
-              <div className="w-[303px] h-[440px] hidden lg:flex">
-                <Image
-                  src="/images/home/about-me/about-banner-img.svg"
-                  alt="about-banner"
-                  width={303}
-                  height={440}
-                  className="w-full h-full"
-                />
-              </div>
-
-              <div className="w-full lg:max-w-2xl flex-1">
+              <div className="w-full flex-1">
                 <p>
                   Full-Stack Developer with strong expertise in MERN and PERN
                   stack development, delivering real-world scalable applications
@@ -51,13 +41,7 @@ const AboutMe = () => {
 
                 <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
                   <div className="flex items-center gap-3.5">
-                    <Image
-                      src="/images/icon/lang-icon.svg"
-                      alt="lang-icon"
-                      width={30}
-                      height={30}
-                    />
-                    <p className="text-base xl:text-xl text-black">Language</p>
+
                   </div>
                   <div className="flex flex-wrap justify-center items-center gap-2.5">
                     {["English", "Urdu", "Pashto"].map((lang, index) => (
