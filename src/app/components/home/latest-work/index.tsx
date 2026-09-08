@@ -39,13 +39,13 @@ const LatestWork = () => {
                     key={index}
                     className="group flex flex-col gap-3 xl:gap-6"
                   >
-                    <div className="relative">
+                    <div className="relative aspect-[570/414] w-full overflow-hidden rounded-lg">
                       <Image
                         src={value?.image}
                         alt="image"
-                        width={570}
-                        height={414}
-                        className="rounded-lg w-full h-full object-cover"
+                        fill
+                        sizes="(max-width: 640px) 100vw, 570px"
+                        className="rounded-lg object-cover"
                       />
                       <Link
                         href={`${value.slug}`}
