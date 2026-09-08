@@ -3,10 +3,10 @@ import { NextResponse } from "next/server";
 const workData = [
   {
     image: "/images/work/pos1.png",
-    title: "POS System (PERN)",
+    title: "Enterprise SaaS POS & Accounting System — React, Node.js & PostgreSQL",
     client:
-      "Double-entry accounting, inventory, warehouses & international clients",
-    slug: "https://sa.wiserconsulting.info/login",
+      "Multi-tenant SaaS: double-entry accounting, inventory, warehouses & international clients",
+    slug: "https://pos.wiserconsulting.info",
   },
   {
     image: "/images/work/ecommerce.png",
